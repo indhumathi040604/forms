@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width>, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        form{
+            border: 1px solid lightblue;
+            width: 500px;
+            height: 600px;
+            margin-left: 350px;
+            margin-top: 30px;
+            border-radius: 30px;
+            padding: 30px;
+            border-radius: 5px;
+        }
+        body{
+            background-image:url(/Assert/sign\ up.jpg) ;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size:100% 100%;
+        }
+        h1{ 
+            text-align: center;
+            margin-left: 100px;
+            margin-right: 200px;
+        }
+    </style>
+</head>
+<body>
+    <h1 style="color:palevioletred">signup form</h1>
+<form>
+    <input type="text" name="fn" placeholder="first name"><br><br>
+    <input type="text" name="mn" placeholder="middle name"><br><br>
+    <input type="text" name="ln" placeholder="last name"><br><br>
+    <input type="date"><br><br>
+    <input type="number" name="age" placeholder="age" min="20" step="2"><br><br>
+    <input type="number" name="contact" placeholder="enter the mobile number"><br><br>
+    <input type="mail" name="mail id" placeholder="enter the mail id"><br><br>
+    <label>gender</label><br><br>
+    <input type="radio" name="gender" id="m">
+    <label for="m">male</label>
+    <input type="radio" name="gender" id="f">
+    <label for="f">female</label>
+    <input type="radio" name="gender" id="o">
+    <label for="o">others</label>
+    <input type="checkbox" id="n1" name="n" checked>
+    <label for="n1">sms</label>
+    <input type="checkbox" id="n2">
+    <label for="n2">sms</label>
+    <label>technical skills</label><br><br>
+    <label>python</label><br><br>
+    <input type="range"><br><br>
+    <label>java</label><br><br>
+    <input type="range"><br><br>
+    <textarea name="address" id="a" cols="60" rows="5">type your address</textarea><br>
+    <input type="submit" value="signup">
+    <input type="reset">
+</form>
+</body>
+</html>

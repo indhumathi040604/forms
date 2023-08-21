@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .login{
+            border:1px solid darkblue;
+            width: 300px;
+            border-radius: 30px;
+            margin-left: 200px;
+            margin-top: 100px;
+            margin-bottom: 30px;
+            margin-right: 100px;
+        }
+        body{
+            background-image:url(/assert/login.jpg);
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: 100% 100%;
+        }
+
+        
+        input[type="text"],input[type="password"],input[type="submit"]{
+            color: blueviolet;
+            padding: 20px;
+            border-radius: 20px;
+            margin: 20px;
+            border: 2px;
+        }
+        .signup{
+            border: 1px solid darkblue;
+            width: 125px;
+            border-radius:15px;
+            margin-right: 30px;
+            margin-left: 270px;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="page">
+    <div class="login">
+        <form action="/welcome.html">
+          <input type="text"  name="username" placeholder="enter the username">
+          <input type="password" name="indhu" placeholder="enter the password" required><br>
+          <input type="submit" value="login">
+        </form>
+    </div>
+
+    <div class="signup">
+        <form action="/sign up.html">
+            <input type="submit" value="sign up">
+        </form>
+    </div>
+    </div>
+</body>
+</html>
